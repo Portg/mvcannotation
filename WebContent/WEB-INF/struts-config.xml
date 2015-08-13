@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+    <component-scan base-package="struts.example">
+        <include-filter type="annotation" expression="org.jeecg.learning.chapter3.annotation.Action" />
+    </component-scan>
+</struts>
